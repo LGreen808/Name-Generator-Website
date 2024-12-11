@@ -24,7 +24,54 @@ $<!doctype html>
         <header>
             <!-- place navbar here -->
         </header>
-        <main></main>
+        <main>
+        <div class="container">
+        <!--Instructions-->
+        <div class="text-center mb-4">
+               <h1>Fantasy Name Generator</h1>
+               <p>Fill out the form below to generate your fantasy name!</p>
+        </div>
+        <!--Form Section-->
+            <form id="fantasyForm" class="mb-4">
+              <!--Get First Name-->
+               <div class="mb-3">
+                  <label for="firstName" class="form-label">First Name</label>
+                   <input type="text" class="form-control" id="Firstname" placeholder="Enter your first name">
+               </div>
+              <!--Get Last Name-->    
+               <div class="mb-3">
+                <label for="lastName" class="form-label">Last Name</label>
+                 <input type="text" class="form-control" id="Lastname" placeholder="Enter your last name">
+             </div>
+             <!--Get Favorite Color-->
+             <div class="mb-3">
+                <label for="favoriteColor" class="form-label">Favorite Color</label>
+                 <input type="text" class="form-control" id="Favoritecolor" placeholder="Enter your favorite color">
+             </div>
+             <!--Get Favorite Animal-->
+             <div class="mb-3">
+                <label for="favoriteAnimal" class="form-label">Favorite Animal</label>
+                 <input type="text" class="form-control" id="Favoriteanimal" placeholder="Enter your favorite color">
+             </div>
+             <!--Get roadType-->                  
+             <div class="mb-3">
+                <label for="roadType" class="form-label">Choose Road Type</label>
+                <select id="roadType" class="form-select">
+                    <option value="road">Road</option>
+                    <option value="street">Street</option>
+                    <option value="drive">Drive</option>
+                    <option value="avenue">Avenue</option>
+                    <option value="other">Other</option>                    
+                </select>
+             </div>
+            </form>
+
+
+
+
+
+        </div>
+        </main>
         <footer>
             <!-- place footer here -->
         </footer>
