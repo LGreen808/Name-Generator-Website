@@ -11,5 +11,7 @@ p {
 }
 
 .btn {
-    color: yellow;
+    background-color: yellow;
+    color: black;
+    border-color: yellow;
 }
