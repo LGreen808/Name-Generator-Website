@@ -48,3 +48,30 @@ function genSuffix(favoriteAnimal){
 }
 
 
+//Master Name Building Function
+function genFullName(){
+    //Get the Users Inputs from HTML Elements
+    const firstName = document.getElementById('firstName').value.trim()
+    const lastName = document.getElementById('lastName').value.trim()
+    const roadType = document.getElementById('roadType').value
+    const favoriteColor = document.getElementById('favoriteColor').value.trim()
+    const favoriteAnimal = document.getElementById('favoriteAnimal').value.trim()
+    //Run Name Generating Functions & store them in new variables
+    const prefix = genPrefix(firstName)
+    const newFirstName = genFirstName(firstName)
+    const middleName = genMiddleName(roadType, favoriteColor)
+    const newLastName = genLastName(firstName)
+    //Capitialize Name Variables when needed
+    const capitalizedPrefix = capitalize(prefix);
+    const capitalizedFirstName = capitalize(newFirstName);
+    const capitalizedMiddleName = capitalize(middleName);
+    const capitalizedLastName = capitalize(newLastName);
+    //Combine all of the Name variables in a new name
+
+    //Display the new name
+}
+
+//Capitliaztion Function
+function capitalize(input){
+    return input.charAt(0).toUpperCase() + input.slice(1).toLowerCase();
+}
