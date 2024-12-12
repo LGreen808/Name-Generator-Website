@@ -19,4 +19,32 @@ function genFirstName (firstName){
 }
 
 //generate middle name
-function
+function genMiddleName (roadType, favoriteColor){
+    if(roadType === 'road'){
+        return `${favoriteColor} ridge` //EX: blueridge
+    } else if(roadType === 'street'){
+        return `${favoriteColor}son`   //EX: blueson
+    } else {
+        return `${favoriteColor}stone`  //EX: bluestone
+    }
+
+}
+
+//generate Last Name
+function genLastName (lastName){
+    const lastLetter = lastName.charAt(lastName.length - 1)
+    if (lastLetter === 'a'){
+        return 'Shadow'
+    } else if (lastLetter === 'e') {
+        return 'Storm'
+    } else if (lastLetter === 'g') {
+        return 'Lightning'
+    } 
+}
+
+//generate Suffix
+function genSuffix(favoriteAnimal){
+    return `of ${favoriteAnimal} clan.`
+}
+
+
