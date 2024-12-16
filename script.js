@@ -68,9 +68,10 @@ function genFullName(){
     const capitalizedMiddleName = capitalize(middleName);
     const capitalizedLastName = capitalize(newLastName);
     //Combine all of the Name variables in a new name
-    const fullName = `${capitalizedPrefix} ${capitalizedFirstName} ${capitalizedMiddleName} ${capitalizedLastName} `
+    const fullName = `${capitalizedPrefix} ${capitalizedFirstName} ${capitalizedMiddleName} ${capitalizedLastName} ${suffix}`
 console.log(fullName)
     //Display the new name
+    document.getElementById('result').textContent = fullName
 }
 
 //Capitliaztion Function
