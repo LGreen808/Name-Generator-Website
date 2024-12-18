@@ -1,9 +1,11 @@
 body {
-background-color: grey
+background-color: grey;
 }
 
 h1 {
     color: black;
+    text-align: center;
+    font-family: 'Tiller, Arial, sans-serif;
 }
 
 p {
@@ -14,4 +16,15 @@ p {
     background-color: yellow;
     color: black;
     border-color: yellow;
+
+}
+
+.btn:hover {
+    background-color: yellow;
+    color: black;
+    border-color: yellow;
+}
+
+.form-label {
+    text-align: center;
 }

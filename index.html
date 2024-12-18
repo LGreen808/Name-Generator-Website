@@ -17,6 +17,7 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.typekit.net/nls4ngc.css">
 
     </head>
 
@@ -35,34 +36,33 @@
             <form id="fantasyForm" class="mb-4">
               <!--Get First Name-->
                <div class="mb-3">
-                  <label for="firstName" class="form-label">First Name</label>
+                  <label for="firstName" class="form-label text-center">First Name</label>
                    <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" required>
                </div>
               <!--Get Last Name-->    
                <div class="mb-3">
-                <label for="lastName" class="form-label">Last Name</label>
+                <label for="lastName" class="form-label text-center">Last Name</label>
                  <input type="text" class="form-control" id="lastName" placeholder="Enter your last name" required>
              </div>
-             <!--Get Favorite Color-->
+
+
+        <!--Get Favorite Movie-->
+        <div class="mb-3">
+        <label for="roadType" class="form-label text-center">What is your favorite movie? Choose from the options in the dropdown below!</label>
+        <select id="roadType" class="form-select mx-5" required>
+        <option value="road">Barbie</option>
+        <option value="street">Gladiator</option>
+        <option value="drive">Titanic</option>
+        <option value="avenue">Back To The Future</option>
+        <option value="other">Star Wars: Episode IV --A New Hope</option>                   
+              </select>
+           </div>
+        </div>
+
+            <!---Get Favorite Movie Decade-->
              <div class="mb-3">
-                <label for="favoriteColor" class="form-label">Favorite Movie</label>
-                 <input type="text" class="form-control" id="favoriteColor" placeholder="Enter your favorite color" required>
-                 <div class="mb-3">
-                    <label for="roadType" class="form-label">Favorite Movie</label>
-                    <select id="roadType" class="form-select" required>
-                        <option value="road">Barbie</option>
-                        <option value="street">Gladiator</option>
-                        <option value="drive">Titanic</option>
-                        <option value="avenue">Back To The Future</option>
-                        <option value="other">Star Wars: Episode IV --A New Hope</option>
-                   
-                    </select>
-                 </div>
-             </div>
-             <!--Get Favorite Animal-->
-             <div class="mb-3">
-                <label for="movieDecade" class="form-label">Favorite Movie Decade</label>
-                <select id="movieDecade" class="form-select" placeholder="What is your favorite movie decade from the dropdown below?" required>
+                <label for="movieDecade" class="form-label text-center">What is your favorite movie decade? Choose from the options in the dropdown below!</label>
+                <select id="movieDecade" class="form-select mx-5" placeholder="What is your favorite movie decade from the dropdown below?" required>
                     <option value="2020's">Movies that came out this decade</option>
                     <option value="2000's">Movies from the 2000's</option>
                     <option value="1990's">Movies from the 1990's</option>
@@ -71,16 +71,7 @@
                 </select>
              </div>
 
-             <div class="mb-3">
-                <label for="roadType" class="form-label">Favorite Movie</label>
-                <select id="roadType" class="form-select" required>
-                    <option value="road">Road</option>
-                    <option value="street">Street</option>
-                    <option value="drive">Drive</option>
-                    <option value="avenue">Avenue</option>
-                    <option value="other">Other</option>                    
-                </select>
-             </div>
+
         <!--Submit Button-->
         <div type="submit" class="btn btn-primary w-100" onclick="genFullName()">Generate Name</div>
             </form>
