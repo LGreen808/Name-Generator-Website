@@ -1,20 +1,27 @@
 //Generate Prefix
 function genPrefix(firstName) {
-    if (firstName.length > 5) {
-        return 'The Great'
-    } else {
-        return 'Master'
+    if (firstName.length = 5) {
+        return 'The talented director'
+    } else if (firstName.length < 5) {
+        return 'The astounding director'
+    } else if (firstName.length > 5) {
+        return 'The amazing director'
     }
+
 }
 //generate first name
 function genFirstName(firstName) {
     const firstLetter = firstName.charAt(0).toLowerCase()
-    if (firstLetter === 'a') {
-        return 'Jeff'
-    } else if (firstLetter === 'b') {
-        return 'Pablo'
-    } else {
-        return 'Julian'
+    if (firstLetter === 'g') {
+        return 'Lucas'
+    } else if (firstLetter === 'r') {
+        return 'Zemeckis'
+    } else if (firstLetter === 'j') {
+        return 'Cameron'
+    } else if (firstLetter === 'c') {
+        return 'Nolan'
+    } else if (firstLetter === 'i') {
+        return 'Scott'
     }
 }
 
@@ -33,14 +40,16 @@ function genMiddleName(roadType, favoriteColor) {
 //generate Last Name
 function genLastName(lastName) {
     const lastLetter = lastName.charAt(lastName.length - 1).toLowerCase
-    if (lastLetter === 'a') {
-        return 'Shadow'
-    } else if (lastLetter === 'e') {
-        return 'Storm'
-    } else if (lastLetter === 'g') {
-        return 'Lightning'
-    }else{
-         return 'Thunder'
+    if (lastLetter === 'g') {
+        return 'Lucas'
+    } else if (lastLetter === 'r') {
+        return 'Zemeckis'
+    } else if (lastLetter === 'j') {
+        return 'Cameron'
+    } else if (lastLetter === 'c') {
+        return 'Nolan'
+    } else if (lastLetter === 'i') {
+        return 'Scott'
     }
 }
 
