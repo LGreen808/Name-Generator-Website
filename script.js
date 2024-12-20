@@ -12,15 +12,15 @@ function genPrefix(firstName) {
 //generate first name
 function genFirstName(firstName) {
     const firstLetter = firstName.charAt(0).toLowerCase()
-    if (firstLetter === 'g') {
-        return 'Lucas'
-    } else if (firstLetter === 'r') {
-        return 'Zemeckis'
-    } else if (firstLetter === 'j') {
-        return 'Cameron'
+    if (firstLetter === 'a') {
+        return 'Carey'
+    } else if (firstLetter === 'b') {
+        return 'Grey'
     } else if (firstLetter === 'c') {
+        return 'Julian'
+    } else if (firstLetter === 'd') {
         return 'Nolan'
-    } else if (firstLetter === 'i') {
+    } else if (firstLetter === 'e') {
         return 'Scott'
     }
 }
