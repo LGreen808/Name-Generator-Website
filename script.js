@@ -1,5 +1,5 @@
 //Generate Prefix
-function genPrefix(firstName) {
+function genPrefix(lastName) {
     if (firstName.length = 5) {
         return 'The talented director'
     } else if (firstName.length < 5) {
@@ -13,28 +13,52 @@ function genPrefix(firstName) {
 function genFirstName(firstName) {
     const firstLetter = firstName.charAt(0).toLowerCase()
     if (firstLetter === 'a') {
-        return 'Carey'
+        return 'Alfred'
     } else if (firstLetter === 'b') {
-        return 'Grey'
+        return 'Billy'
     } else if (firstLetter === 'c') {
-        return 'Julian'
+        return 'Christopher'
     } else if (firstLetter === 'd') {
-        return 'Nolan'
+        return 'Danny'
     } else if (firstLetter === 'e') {
-        return 'Scott'
+        return 'Eastwood'
+    } else if (firstLetter === 'f') {
+        return 'Francis'
+    } else if (firstLetter === 'g') {
+        return 'George'
+    } else if (firstLetter === 'h') {
+        return 'Howard'
+    } else if (firstLetter === 'i') {
+        return 'Charlie'
+    } else if (firstLetter === 'j') {
+        return 'John'
+    } else if (firstLetter === 'k') {
+        return 'Stanley'
+    } else if (firstLetter === 'l') {
+        return 'David'
+    } else if (firstLetter === 'm') {
+        return 'Martin'
+    } else if (firstLetter === 'n') {
+        return 'Bergman'
+    } else if (firstLetter === 'o') {
+        return 'Orson'
     }
 }
 
 //generate middle name
-function genMiddleName(roadType, favoriteColor) {
-    if (roadType === 'road') {
-        return `${favoriteColor} ridge` //EX: blueridge
-    } else if (roadType === 'street') {
-        return `${favoriteColor}son`   //EX: blueson
-    } else {
-        return `${favoriteColor}stone`  //EX: bluestone
+function genMiddleName(movieName) {
+    if (movieName === 'Oppenhimer') {
+        return 'Nolan'
+    } else if (movieName === 'Gladiator') {
+        return 'Scott'
+    } else if (movieName === 'Titanic')
+        return 'Cameron'
+    } else if (movieName === 'Back To The Future')
+        return 'Zemmekiz'
+    } else if (movieName === 'Star Wars: Episode IV --A New Hope'
+        return 'Lucas'
     }
-
+}
 }
 
 //generate Last Name
