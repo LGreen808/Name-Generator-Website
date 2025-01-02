@@ -42,6 +42,28 @@ function genFirstName(firstName) {
         return 'Bergman'
     } else if (firstLetter === 'o') {
         return 'Orson'
+    } else if (firstLetter === 'p') {
+        return 'Peter'
+    } else if (firstLetter === 'q') {
+        return 'Quentin'
+    } else if (firstLetter === 'r') {
+        return 'Roberto'
+    } else if (firstLetter === 's') {
+        return 'Steven'
+    } else if (firstLetter === 't') {
+        return 'Tim'
+    } else if (firstLetter === 'u') {
+        return 'Ulysses'
+    } else if (firstLetter === 'v') {
+        return 'Vincente'
+    } else if (firstLetter === 'w') {
+        return 'William'
+    } else if (firstLetter === 'x') {
+        return 'Xylon'
+    } else if (firstLetter === 'y') {
+        return 'Yale'
+    } else if (firstLetter === 'z') {
+        return 'Zack'
     }
 }
 
